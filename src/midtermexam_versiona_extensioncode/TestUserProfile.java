@@ -1,6 +1,6 @@
 package midtermexam_versiona_extensioncode;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 /**
@@ -18,14 +18,12 @@ public class TestUserProfile {
 
       System.out.println("Please enter name: ");
       String name = input.nextLine();
-      
-      System.out.println();
-      
-      System.out.println("Please select a genre: "); 
 
+      System.out.println("User profile is created. ");
+      
       
    }
-    
+
    
    }
 
