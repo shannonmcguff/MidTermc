@@ -5,6 +5,7 @@
  */
 package midtermexam_versiona_extensioncode;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -15,12 +16,16 @@ import java.util.Scanner;
  * code.
  * @author dancye, 2019
  */
-public class UserProfile 
+public class UserProfile
 {
     
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
     private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
+
+
+    
+
     
     /**
      * A constructor that takes in the userID and the favourite genre
@@ -33,6 +38,7 @@ public class UserProfile
         genre= givenGenre;
     }
 
+    
     /**
      * A getter for the userID
      * @return the userID
