@@ -6,7 +6,7 @@
 package midtermexam_versiona_extensioncode;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 /**
  * The user profile for the OnlineVids system. The user has a userID
@@ -25,8 +25,6 @@ public class UserProfile
 
 
     
-
-    
     /**
      * A constructor that takes in the userID and the favourite genre
      * @param givenID the ID to assign to this user
@@ -38,6 +36,9 @@ public class UserProfile
         genre= givenGenre;
     }
 
+    public String getGenres() {
+       return Arrays.deepToString(genres);
+    }
     
     /**
      * A getter for the userID
