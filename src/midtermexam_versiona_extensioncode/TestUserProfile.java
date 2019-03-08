@@ -18,11 +18,15 @@ public class TestUserProfile {
 
       System.out.println("Please enter name: ");
       String name = input.nextLine();
-
+      
+      System.out.println();
+      
+      System.out.println("Please select a genre: "); 
 
       
    }
-  
-}
+    
+   
+   }
 
 
